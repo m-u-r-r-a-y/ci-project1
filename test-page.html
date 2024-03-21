@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ /* The animation code */
+ @keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+#h {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  
+  animation-name: example;
+  animation: example 5s infinite;
+} 
+
+/* body{
+  display:grid;
+  place-items:center;
+  height:100vh;
+  background:#4C23E8;
+  margin:0;
+  padding:0;
+} */
+
+label{
+ display:flex;
+  flex-direction:column;
+  width:70px;
+  cursor:pointer;
+}
+
+label span{
+  background: #eb0606;
+  border-radius:10px;
+  height:7px;
+  margin: 7px 0;
+  transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+}
+
+
+span:nth-of-type(1){
+  width:50%;
+  
+}
+
+span:nth-of-type(2){
+  width:100%;
+}
+
+
+span:nth-of-type(3){
+  width:75%;
+ 
+}
+
+
+input[type="checkbox"]{
+  display:none;
+}
+
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1){
+  transform-origin:bottom;
+  transform:rotatez(45deg) translate(8px,0px)
+}
+
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2){
+  
+  transform-origin:top;
+  transform:rotatez(-45deg)
+}
+
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3){
+  
+  transform-origin:bottom;
+  width:50%;
+  transform: translate(30px,-11px) rotatez(45deg);
+
+}
+
+
+
+    </style>
+</head>
+<body>
+
+  <label for="check">
+    <input type="checkbox" id="check"/> 
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+    <div id="h"></div>
+
+
+    <section id="team">
+      <div id="Container">
+        <div>
+          <img
+            src="/assets/images/happy.jpeg"
+          
+            alt="Image of founder"
+          />
+          <div>
+            <!-- <img src="/assets/images/hoi.png" alt="picture of founder" id="hoi">  -->
+            <h4>Founder / Head of imagination</h4>
+
+            <p>
+              Adam is a visionary leader who thrives on creativity and
+              innovation, constantly pushing boundaries and inspiring others
+              with their imaginative ideas. They have a unique ability to
+              think outside the box and turn your dreams into reality.
+            </p>
+          </div>
+        </div>
+
+        <div>
+        <img
+          src="/assets/images/coh.jpeg"
+          
+          alt="Image of happiness"
+        />
+        <h4>Chief happiness officer</h4>
+
+        <p>
+          Eden is focused on fostering a positivity, promoting happiness,
+          satisfaction amoung clients through sincere collaboration
+          various forms of supportive interventions. Additionally, Eden
+          serves as a bridge between a clients concerns and their
+          contentment. You will be amazed!
+        </p>
+    </div>
+    <div>
+        <img
+          src="/assets/images/officer.jpeg" alt="Image of Wizard of light bulb Moments"/>
+
+          <h4>Wizard of light bulb Moments </h4>
+              <p>
+                making creativity happy faster
+              </p>
+      </div>
+    </div>
+    </section>
+    
+</body>
+</html>
