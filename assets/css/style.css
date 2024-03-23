@@ -26,6 +26,7 @@ h1, h2, h3 {
     text-transform: none;
     letter-spacing: 2px;
     color: #2c2b2b;
+    
 }
  
 .hidden-heading {
@@ -65,25 +66,21 @@ header a {
 #wwa:hover{
     background-color:rgba(242, 255, 127, 0.51);
     transition: 1.5s;
-    border-radius: 800%;
-    filter: blur(1px); 
+    filter: blur(0.5px); 
     
 }
 
 #mu:hover{
-    background-color:rgba(146, 127, 255, 0.51);
+    background-color:rgba(251, 158, 248, 0.51);
     transition: 1.5s;
-    border-radius: 800%;
-    filter: blur(1px);
+    filter: blur(0.5px);
 }
- 
  
 
 #git:hover{
     background-color:rgba(127, 255, 246, 0.51);
     transition: 1.5s;
-    border-radius: 800%;
-    filter: blur(1px);
+    filter: blur(0.5px);
 }
  
 #menu > li {
@@ -113,6 +110,7 @@ nav {
  
 .nav-toggle-label {
     font-size: 2rem;
+    text-align: center;
 }
  
 /* Main content */
@@ -135,50 +133,94 @@ main {
     z-index: -1
 }
  
- 
-#hero-text {
+/* #hero-text {
  
     text-align: center;
-    padding: 10%;
-    padding-top: 20%;
-    font-weight: 1900;
+    margin: 10% 10%;
     font-size: xx-large;
-    position: relative;
-   
-}
+    position: relative;  
+} */
+
+#mask-image {
+    text-align: center;
+    width: auto;
+    font-size: 66px;
+    line-height: 80px;
+    font-weight: 800px;
+    /* text-transform: uppercase; */
+    background: url(/assets/images/chief.png) 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+
+#alice-image {
+    text-align: center;
+    width: auto;
+    font-size: 66px;
+    line-height: 80px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    background: url(/assets/images/alice.jpeg) 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+
+ }
+
  
+@keyframes dizzy-ball {
+    0%   {background-color:rgba(255, 0, 0, 0.501); left:0px; top:0px;}
+    25%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px; border-radius: 20%;}
+    50%  {background-color:rgba(0, 0, 255, 0.501); left:50%; top:100%;} 
+    75%  {background-color:rgba(0, 128, 0, 0.504); left:8%; top:80%; border-radius: 45%;}
+    100% {background-color:rgba(255, 0, 0, 0.502); left:0px; top:0%;}
+  }
  
+
+
  
 #dizzy_ball  {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 237, 107, 0.2);
-    /* position: absolute;
-    bottom: 50%;
-    /* width: 80%; */
-    /* min-height: 20%; */
-    /* padding-top: 40px; */
     left: 80%;
-    /* padding-left: 10px; */
     border-radius: 50%;
-    /* /max-width: 300px;  */
-    /* max-height: 300px; */
-    height: 30vw;
-    width: 30vw;
+    height: 10vw;
+    width: 10vw;
     position: relative;
-    animation: dizzy-ball 10s infinite; 
-   
+    animation: dizzy-ball 30s infinite; 
+     animation-direction: alternate-reverse; 
 }
 
-    
-    
- 
-  @keyframes dizzy-ball {
+
+
+#dizzy_ball_2 {animation-timing-function: ease;}
+
+#dizzy_ball_2  {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 237, 107, 0.2);
+    left: 80%;
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+    position: relative;
+    animation: dizzy_ball_2 30s infinite; 
+    animation-direction: normal; 
+}
+
+@keyframes dizzy_ball_2 {
     0%   {background-color:rgba(255, 0, 0, 0.501); left:0px; top:0px;}
-    25%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px;}
-    50%  {background-color:rgba(0, 0, 255, 0.501); left:50%; top:100%;} 
-     75%  {background-color:rgba(0, 128, 0, 0.504); left:8%; top:80%;}
+    20%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px; border-radius: 20%;}
+    60%  {background-color:rgba(255, 123, 0, 0.501); left:50%; top:100%;} 
+    80%  {background-color:rgba(0, 128, 0, 0.504); left:8%; top:80%; border-radius: 45%;}
     100% {background-color:rgba(255, 0, 0, 0.502); left:0px; top:0%;}
   }
+
+
+
+
  
  
 
@@ -199,6 +241,7 @@ main {
     align-items: center;
     /* justify-content: center; */
     padding: 2rem;
+    padding-bottom: 0.5rem;
     width: 100%;
  
 }
@@ -214,62 +257,55 @@ main {
     padding-bottom: 20px;
 
 }
- 
+.team_item > p {
+    text-align: justify;
+}
 
- 
-#circle-cover-bg {
-    background: url('../images/alice.jpeg') no-repeat top center / cover;
-    height: 30vw;
-    width: 30vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
- 
-#benefits-image {
+.project_container {
     display: flex;
+    flex-direction: column; 
+    /align-items: space-between; 
+    /* justify-content: center; */
+    /* padding: 2rem; */
+}
+.project_item {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    /* padding: 2rem; */
+    /* padding-top: 0; */
+    width: 100%;
+    /* margin: 20px; */
 }
- 
-/* Meetup Times section */
-#times {
-    background: url('../images/dublin-city.webp') no-repeat center/cover;
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
+.project_item > video {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    
 }
- 
-#times div {
-    color: #fafafa;
-    background-color: rgba(202, 36, 36, 0.6);
-    border-radius: 8px;
-    padding: 15px;
-    text-align: left;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
-    flex-basis: 200px;
-    flex-grow: 1;
-    /* Creates a grid of meetup time dives over the background image */
-    border: 2px solid white;
+
+#my-video {
+
+    
 }
- 
-#times h3 {
-    /* Override the heading colour set in general styles */
-    color: #fafafa;
-}
- 
- 
- 
+
+/* /.project_item > h4 {  */
+    /* padding-bottom: 20px; */
+/* } */
+/* .project_item > p { */
+    /* text-align: justify; */
+    
+
  
  
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     display: flex;
+    padding: 30px;
     justify-content: space-evenly;
     list-style-type: none;
 }
@@ -279,6 +315,7 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
+
  
 /* Media query: large or landscape phones (600px and up) */
 @media screen and (min-width: 600px) {
@@ -289,13 +326,38 @@ main {
         align-items: space-between;
         justify-content: center;
     }
-    #cover-text {
-       
-        right: 50%;
-        border-radius: 500%;
-        max-width: 50%;
+
+
+    .project_container {
+        display: flex;
+        flex-direction: row;
+        align-items: space-between;
+        justify-content: center;
+     
     }
- 
+
+ .list_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+ }
+
+#wwa #mu #git {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#mu, #git {
+    margin-left: 20px;
+}
+    }
+    #menu > li {
+        padding-left: 1rem;
+        display: flex; 
+    }
+    
  
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -325,6 +387,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    
  
    
  
