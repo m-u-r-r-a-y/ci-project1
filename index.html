@@ -17,7 +17,7 @@
 
     <!-- Title -->
     <title>Out_Side</title>
-    <!-- Favicon -->
+
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -40,11 +40,10 @@
             <div class="list_item">
 
           <li><a href="#who-we-are" id="wwa">who we are</a></li>
-          <li><a href="#meetups" id="mu">what we do</a></li>
-          <li><a href="#get-in-touch" id="git">inspiration</a></li>
-          <li><a href="#get-in-touch" id="git">get in touch</a></li>
-          <li><a href="play.html" id="play">playground</a></li>
-          <li><a href="play.html" <span  class="material-symbols-outlined">logout</span></a></li>
+          <li><a href="#projects1" id="wwd">what we do</a></li>
+          <li><a href="#wip" id="inspo">inspiration</a></li>
+          <li><a href="#meetups" id="git">get in touch</a></li>
+          <li><a href="play.html" id="play">play</a></li>
         </ul>
     </div>
    
@@ -116,17 +115,18 @@
             <h4>Wizard of light bulb momments</h4>
             <br />
             <p>
-              Alex makes impossible real, the future is within and alex brings
-              in out.
+              Alex makes impossible real, the future is within all we is find it.
             </p>
           </div>
 
         </div>
       </section>
 
+<section id="projects1"></section>
+
       <h1 id="alice-image">Projects</h1>
 
-<section id="project">
+<section id="projects">
       <!-- The video -->
       <div class="project_container">
         <div class="project_item">
@@ -136,74 +136,80 @@
           
         
         </video>
-        <h4>Wizard of light bulb momments</h4>
+        <h3>Petal</h3>
+        <h4></h4> Do you remember the cool breeze?</h4>
         </div>
 
         <div class="project_item">
-            
     
             <video autoplay muted loop id="myVideo" >
               <source src="assets/images/mother.mp4" type="video/mp4" />
            
             </video>
-            <h4 id="">Wizard of light bulb momments</h4>
-         
-
-            
+            <h3>Shared momments</h3>
+            <h4> { paired dreams }</h4>
             </div>
           
             
       </div>
     </Section>
-    <section id="Wip">
+    <section id="wip">
         <h1 id="alice-image">Catalog dreams</h1>
     </section>
 <!-- Gallery section  -->
+
       <section id="gallery">
         <h2 class="hidden-heading">Gallery</h2>
         <div id="photos">
             <img src="assets/images/gallery/90s-kid.jpeg" alt="90s kid">
-            <img src="assets/images/gallery/alien-monster-helmet.jpeg" alt="Three girls at charity paint running festival">
-            <img src="assets/images/gallery/car home.jpeg" alt="Solo male runner jogging on beach">
-            <img src="assets/images/gallery/curly-coat.jpeg" alt="Man at charity paint running festival">
-            <img src="assets/images/gallery/cute-cyber-punk.jpeg" alt="Solo female runner jogging through Phoenix Park">
-            <img src="assets/images/gallery/dadafuturistic.jpeg" alt="Runners competing in marathon">
-            <img src="assets/images/gallery/dog-head.jpeg" alt="Solo female runner jogging on beach">
+            <img src="assets/images/gallery/alien-monster-helmet.jpeg" alt="a man waering a monster helemet">
+            <img src="assets/images/gallery/car home.jpeg" alt="Modern car home">
+            <img src="assets/images/gallery/curly-coat.jpeg" alt="He had hair ">
+            <img src="assets/images/gallery/cute-cyber-punk.jpeg" alt="Cute cyber punk">
+            <img src="assets/images/gallery/dadafuturistic.jpeg" alt="Dadafuturistic">
+            <img src="assets/images/gallery/dog-head.jpeg" alt="Dogs wearing suits">
             <img src="assets/images/gallery/homer-chair.jpeg"
-                alt="Large group of runners taking part in a marathon on a rainy day">
+                alt="Hommer chair in a lovely house">
             <img src="assets/images/gallery/inca-priest-ananlog.jpeg"
-                alt="Two women runners taking a muddy selfie after the Mud Runners championship">
-            <img src="assets/images/gallery/rainbow-wall.jpeg" alt="Solo female runner jogging on beach">
-            <img src="assets/images/gallery/1980vr.jpeg" alt="Solo female runner jogging on beach">
+                alt="Techno priest">
+            <img src="assets/images/gallery/rainbow-wall.jpeg" alt="Modern fututuristic house">
+            <img src="assets/images/gallery/1980vr.jpeg" alt="1980s improbable future">
+            <section id="meetups"></section>
         </div>
     </section>
-      <section id="meetups">
-        <h2 class="hidden-heading">Meet-up Times</h2>
+    
+      
+        <h2 class="hidden-heading">Get in touch</h2>
 
         <h1 id="alice-image">Get in touch</h1>
+        <div class="form_container">
         <div id="form">
-          <form action="/action_page.php">
+          <form action="">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
         
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Swings@thepark.com" required>
         
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
+            <label for="ice-cream">Favourite ice cream</label>
+            <select id="icecream" name="icecream">
+              <option value="vannilla">Vannilla</option>
+              <option value="pistachio">Pistachio</option>
+              <option value="chocolate">Chocolate</option>
+              <option value="strawberry">Strawberry</option>
             </select>
-          
-            <input type="submit" value="Submit">
+
+            <input type="submit" id="submit" value="submit">
           </form>
+        </div>
         </div>
         
 
-        <div id="times">
-        </div>
-      </section>
+        <!-- <div id="get-in-touch"> -->
+       
     </main>
 
     <!-- Footer -->
