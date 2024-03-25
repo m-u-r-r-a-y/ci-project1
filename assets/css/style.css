@@ -19,7 +19,6 @@ body {
     background-color: #fafafa;
 }
  
-.all-scroll {cursor: all-scroll;}
  
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
@@ -82,9 +81,26 @@ header a {
     transition: 1.5s;
     filter: blur(0.5px);
 }
+
+#play:hover{
+    background-color:rgba(255, 182, 127, 0.51);
+    transition: 1.5s;
+    filter: blur(0.5px);
+}
+
+#play{
+     margin-left: 20px; 
+}
  
 #menu > li {
-    /margin-bottom: 1em; 
+    margin-bottom: 1em; 
+    margin: ;
+
+}
+
+.material-symbols-outlined {
+   margin-left: 5px;
+   margin-top: 5px;
 }
  
  
@@ -145,6 +161,19 @@ main {
     text-align: center;
     width: auto;
     font-size: 66px;
+    line-height: 80px;
+    font-weight: 800px;
+    /* text-transform: uppercase; */
+    background: url(/assets/images/chief.png) 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ #mask-image2 {
+    text-align: center;
+    width: auto;
+    font-size: 26px;
     line-height: 80px;
     font-weight: 800px;
     /* text-transform: uppercase; */
@@ -282,12 +311,14 @@ main {
     height: 100%;
     width: 100%;
     padding: 20px;
+    margin-bottom:  10px;
     border-radius: 40px;
     
 }
 
-#my-video {
+#vid-text {
 
+    margin-top: 10px;
     
 }
 
@@ -301,6 +332,10 @@ main {
  
  
 /* Footer */
+footer{
+    height: 200px;
+}
+
 #social-networks {
     text-align: center;
     /* padding: 20px 0; */
@@ -347,6 +382,7 @@ main {
 
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 #mu, #git {
