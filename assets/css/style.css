@@ -164,20 +164,7 @@ main {
     line-height: 80px;
     font-weight: 800px;
     /* text-transform: uppercase; */
-    background: url(/assets/images/chief.png) 0 0 / cover no-repeat;
-    color: #de466c;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
- }
-
- #mask-image2 {
-    text-align: center;
-    width: auto;
-    font-size: 26px;
-    line-height: 80px;
-    font-weight: 800px;
-    /* text-transform: uppercase; */
-    background: url(/assets/images/chief.png) 0 0 / cover no-repeat;
+    background: url(../images/chief.png) 0 0 / cover no-repeat;
     color: #de466c;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -191,7 +178,7 @@ main {
     line-height: 80px;
     font-weight: 800px;
     text-transform: uppercase;
-    background: url(/assets/images/alice.jpeg) 0 0 / cover no-repeat;
+    background: url(../images/alice.jpeg) 0 0 / cover no-repeat;
     color: #de466c;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -427,7 +414,9 @@ footer{
     
 #menu > li {
         padding-left: 1rem;
-        display: flex; 
+        display:inline-block;
+         
+
     }
 
 #photos {
@@ -515,29 +504,5 @@ footer{
 }
  
 @media screen and (min-width: 1200px) {    
-    /* Reasons section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
- 
-    #benefits > div {
-        flex: 1;
-    }
- 
-    #benefits-image {
-        order: 0
-    }
- 
-    #benefits-mental {
-        order: 1;
-    }
- 
-    #benefits-mental > div {
-        align-self: flex-start;
-    }
- 
-    #benefits-physical > div {
-        align-self: flex-end;
-    }
+    
 }
