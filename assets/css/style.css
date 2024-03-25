@@ -362,7 +362,14 @@ main {
     /* justify-content: center; */
     padding: 2rem;
     padding-bottom: 0.5rem;
-    
+}
+
+#form > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
 }
 
 .form_container {
@@ -373,7 +380,7 @@ main {
 }
  
 #submit {
-    border: 1px solid red;
+   
   }
 
 
@@ -475,7 +482,7 @@ footer{
         column-count: 2;
         column-gap: 0;
     }
-    
+}
  
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 760px) {
