@@ -322,11 +322,16 @@ main {
     
 }
 
-/* /.project_item > h4 {  */
-    /* padding-bottom: 20px; */
-/* } */
-/* .project_item > p { */
-    /* text-align: justify; */
+/* Photo section */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
     
 
  
@@ -388,10 +393,15 @@ footer{
 #mu, #git {
     margin-left: 20px;
 }
-    }
-    #menu > li {
+    
+#menu > li {
         padding-left: 1rem;
         display: flex; 
+    }
+
+#photos {
+        column-count: 2;
+        column-gap: 0;
     }
     
  
@@ -424,6 +434,10 @@ footer{
         margin: 0 0.5rem;
     }
     
+    /* Gallery */
+      #photos {
+        column-count: 3;
+    }
  
    
  
@@ -463,7 +477,7 @@ footer{
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
  
-    /* Gallery */
+/* Gallery */
     #photos {
         column-count: 4;
     }
