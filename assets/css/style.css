@@ -202,7 +202,7 @@ main {
  
 @keyframes dizzy-ball {
     0%   {background-color:rgba(255, 0, 0, 0.501); left:0px; top:0px;}
-    25%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px; border-radius: 20%;}
+    25%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px; border-radius: 10px 100px;}
     50%  {background-color:rgba(0, 0, 255, 0.501); left:50%; top:100%;} 
     75%  {background-color:rgba(0, 128, 0, 0.504); left:8%; top:80%; border-radius: 45%;}
     100% {background-color:rgba(255, 0, 0, 0.502); left:0px; top:0%;}
