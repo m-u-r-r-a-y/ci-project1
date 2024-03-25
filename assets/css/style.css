@@ -19,12 +19,19 @@ body {
     background-color: #fafafa;
 }
  
+#logo > h1 {
+
+    /* background-image: linear-gradient(281deg,#420be6,#a16bb3); */
+   
+}
+
  
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: none;
     letter-spacing: 2px;
-    color: #2c2b2b;
+    color:#4a0b8683;
+    
     
 }
  
@@ -90,7 +97,11 @@ header a {
 #play:hover{ transform:perspective(4)}
 
 #play{
-    background-color:rgba(255, 182, 127, 0.51);  
+    background-image: linear-gradient(281deg,#420be6,#a16bb3);
+    box-shadow: 0 10px 30px 0 #cd39a14d;
+    border-radius: 4px;
+    color:#ffffff;
+    padding: 2px;
 }
 
 #wwd {
@@ -110,10 +121,12 @@ header a {
 
  
 #menu > li {
-    margin-bottom: 1em; 
+    margin-bottom: 2em; 
    display: inline-block;
-   
+}
 
+li {
+    margin-bottom: 10px;
 }
 
 .material-symbols-outlined {
@@ -167,13 +180,7 @@ main {
     z-index: -1
 }
  
-/* #hero-text {
- 
-    text-align: center;
-    margin: 10% 10%;
-    font-size: xx-large;
-    position: relative;  
-} */
+
 
 #mask-image {
     text-align: center;
@@ -317,8 +324,13 @@ main {
     width: 100%;
     padding: 20px;
     margin-bottom:  10px;
-    border-radius: 40px;
-    
+    border-radius: 40px;  
+}
+
+.project_item > p {
+   
+    padding: 20px;
+  
 }
 
 #vid-text {
@@ -342,9 +354,8 @@ main {
 
 #form {
     height: 400px;
-    width: 250px;
-    margin-left: 40%;
-    margin-right: 60%;
+    margin-left: 100px; 
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -361,6 +372,9 @@ main {
     justify-content: center;
 }
  
+#submit {
+    border: 1px solid red;
+  }
 
 
 input[type=text], select {
@@ -397,16 +411,9 @@ input[type=text], select {
     cursor: pointer;
   }
 
-  #submit:hover {
-    color: #fff;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
   
   div #form {
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #f2f2f2;
     padding: 20px;
   }
@@ -419,20 +426,7 @@ footer{
     margin-top: 50px;
 }
 
-#social-networks {
-    text-align: center;
-    /* padding: 20px 0; */
-    display: flex;
-    padding: 30px;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
- 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
+
 
  
 /* Media query: large or landscape phones (600px and up) */
