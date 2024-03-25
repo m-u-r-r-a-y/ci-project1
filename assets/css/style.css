@@ -62,41 +62,85 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+/*-------------------- menu ------------------*/
  
 #menu {
     font-size: 110%;
     letter-spacing: 0px;
     list-style-type: none;
 }
+
+#menu > li {
+
+    margin-bottom: 2em; 
+   display: inline-block;
+}
+
+li {
+
+    margin-bottom: 10px;
+}
  
+/*-------- List in header ------------*/
+/*-------- Who we are ------------*/
 #wwa:hover{
+
     background-color:rgba(242, 255, 127, 0.51);
     transition: 1.5s;
     filter: blur(0.5px); 
-    
 }
 
+#wwa{
+
+    margin-right: 20px;  
+ }
+
+/*-------- What we do ------------*/
 #wwd:hover{
+
     background-color:rgba(251, 158, 248, 0.51);
     transition: 1.5s;
     filter: blur(0.5px);
 }
- 
 
-#git:hover{
+#wwd{
+
+    margin-right: 20px;   
+ }
+ 
+/*-------- News ------------*/
+#news:hover{
+
     background-color:rgba(127, 255, 246, 0.51);
     transition: 1.5s;
     filter: blur(0.5px);
 }
+
+#news{
+
+    margin-right: 20px;  
+ }
+
+
+/*-------- Inspiration ------------*/
 #inspo:hover{
+
     background-color:rgba(255, 127, 127, 0.51);
     transition: 1.5s;
     filter: blur(0.5px);
 }
 
+#inspo{
+
+    margin-right: 20px;  
+ }
+
+/*-------- Play button------------*/
 #play:hover{ transform:perspective(4)}
 
 #play{
+
     background-image: linear-gradient(281deg,#420be6,#a16bb3);
     box-shadow: 0 10px 30px 0 #cd39a14d;
     border-radius: 4px;
@@ -104,39 +148,9 @@ header a {
     padding: 2.5px;
 }
 
-#wwd{
-   margin-right: 20px;   
-}
-
-#wwa{
-     margin-right: 20px;  
-  }
-
-  #wwa{
-     margin-right: 20px;  
-  }
-  #git{
-    margin-right: 20px;  
- }
-
- 
-#menu > li {
-    margin-bottom: 2em; 
-   display: inline-block;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-.material-symbols-outlined {
-   margin-left: 5px;
-   margin-top: 5px;
-}
- 
- 
-/* Navbar styles with dropdown toggle */
+/*----------------------------- Navbar styles with dropdown toggle---------------- */
 nav {
+
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -146,22 +160,26 @@ nav {
     top: 100%;
 }
  
-/* Nav toggle */
+/* ---------------------- Nav toggle -----------------*/
 #nav-toggle:checked~nav {
+
     display: block;
 }
  
 #nav-toggle {
+
     display: none;
 }
  
 .nav-toggle-label {
+
     font-size: 2rem;
     text-align: center;
 }
  
-/* Main content */
+/*---------------------- Main content ----------------------------*/
 main {
+
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
@@ -173,6 +191,7 @@ main {
  
 /* ------------------------- Hero section -------------------- */
 #hero {
+
     height: 600px;
     width: 100%;
     background: url("../images/Color_icon_white.svg.png") no-repeat center center/cover;
@@ -180,9 +199,10 @@ main {
     z-index: -1
 }
  
-
+/* --------------- wrapped imaged ------------------------ */ 
 
 #mask-image {
+
     text-align: center;
     width: auto;
     font-size: 66px;
@@ -197,6 +217,7 @@ main {
 
 
 #alice-image {
+
     text-align: center;
     width: auto;
     font-size: 66px;
@@ -208,11 +229,14 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 2rem;
-
  }
 
+ /*---------------- annimatied balls -------------------*/
+
+ /*----------------  ball 1 -------------------*/
  
 @keyframes dizzy-ball {
+
     0%   {background-color:rgba(255, 0, 0, 0.501); left:0px; top:0px;}
     25%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px; border-radius: 10px 100px;}
     50%  {background-color:rgba(0, 0, 255, 0.501); left:50%; top:100%;} 
@@ -220,10 +244,8 @@ main {
     100% {background-color:rgba(255, 0, 0, 0.502); left:0px; top:0%;}
   }
  
-
-
- 
 #dizzy_ball  {
+
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 237, 107, 0.2);
     left: 80%;
@@ -235,12 +257,14 @@ main {
      animation-direction: alternate-reverse; 
 }
 
+ /*----------------  ball 2 -------------------*/
 
+#dizzy_ball_2 {animation-timing-function: ease;
 
-#dizzy_ball_2 {animation-timing-function: ease;}
+}
 
 #dizzy_ball_2  {
-    /* Final rgba value sets the opacity so it is semi-transparent */
+
     background-color: rgba(241, 237, 107, 0.2);
     left: 80%;
     border-radius: 50%;
@@ -252,31 +276,26 @@ main {
 }
 
 @keyframes dizzy_ball_2 {
+
     0%   {background-color:rgba(255, 0, 0, 0.501); left:0px; top:0px;}
     20%  {background-color:rgba(255, 255, 0, 0.503); left:80%; top:0px; border-radius: 20%;}
     60%  {background-color:rgba(255, 123, 0, 0.501); left:50%; top:100%;} 
     80%  {background-color:rgba(0, 128, 0, 0.504); left:8%; top:80%; border-radius: 45%;}
     100% {background-color:rgba(255, 0, 0, 0.502); left:0px; top:0%;}
   }
-
-
-
-
  
- 
-
- 
-/*team section*/
+/*-------------------Team section---------------------------------*/
  
 .team_container {
+
     display: flex;
     flex-direction: column;
     align-items: space-between;
     justify-content: center;
 }
- 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+
 .team_item {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -284,42 +303,43 @@ main {
     padding: 2rem;
     padding-bottom: 0.5rem;
     width: 100%;
- 
 }
 
-
 .team_item > img {
+
     height: 150px;
     border-radius: 50%;
     padding-bottom: 20px;
 }
 
 .team_item > h4 {
+
     padding-bottom: 20px;
 
 }
 .team_item > p {
+
     text-align: justify;
 }
 
+/*-------------------- Project section --------------------------*/
 .project_container {
+
     display: flex;
     flex-direction: column; 
-    /align-items: space-between; 
-    /* justify-content: center; */
-    /* padding: 2rem; */
+    align-items: space-between; 
 }
+   
 .project_item {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    /* padding: 2rem; */
-    /* padding-top: 0; */
     width: 100%;
-    /* margin: 20px; */
 }
 .project_item > video {
+
     height: 100%;
     width: 100%;
     padding: 20px;
@@ -328,9 +348,9 @@ main {
 }
 
 .project_item > p {
-   
+
     padding: 20px;
-  
+
 }
 
 #vid-text {
@@ -339,13 +359,15 @@ main {
     
 }
 
-/* Gallery section */
+/*--------------- Gallery section -------------------*/
 #photos img {
+
     width: 100%;
     line-height: 1em;
 }
 
 #photos {
+
     line-height: 0;
     margin-top: 20px;
 }
@@ -364,6 +386,7 @@ main {
 }
 
 #form > form {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -372,18 +395,16 @@ main {
 }
 
 .form_container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f6a4fa1e;
 }
  
-#submit {
-
-  }
-
-
 input[type=text], select {
+
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -394,6 +415,7 @@ input[type=text], select {
   }
 
   input[type=email], select {
+
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -404,6 +426,7 @@ input[type=text], select {
   }
   
   input[type=submit] {
+
     /* width: 100%; */
     background-image: linear-gradient(281deg,#420be6,#a16bb3);
     box-shadow: 0 10px 30px 0 #cd39a14d;
@@ -419,8 +442,9 @@ input[type=text], select {
 
   
   div #form {
+
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f6a4fa1e;
     padding: 20px;
     max-width: 300px;
     min-width: 300px;
@@ -430,16 +454,24 @@ input[type=text], select {
     justify-content: center; 
   }
 
- 
- 
-/* Footer */
-footer{
-    height: 10px;
-    margin-top: 50px;
+ /* ---------- Footer --------*/
+
+hr {
+
+margin-right: 30px;
+ margin-left: 30px;
+ f
 }
 
 
+footer{
+    height: 600px;
+    margin-top: 50px;
+    
+}
 
+
+/*----------- Screen sizes and changes in performance ----------*/
  
 /* Media query: large or landscape phones (600px and up) */
 @media screen and (min-width: 600px) {
@@ -487,6 +519,8 @@ footer{
         column-count: 2;
         column-gap: 0;
     }
+
+}
     
  
 /* Media query: tablets and larger (768px and up) */
