@@ -343,21 +343,21 @@ main {
     height: 100%;
     width: 100%;
     padding: 20px;
-    margin-bottom:  10px;
-    /* border-radius: 40px;   */
+    /* padding-bottom: 0; */
+    /* margin-bottom:  10px; */
+    border-radius: 40px;  
 }
 
-.project_item > p {
+/* .project_item > p {
 
     padding: 20px;
-
 }
 
 #vid-text {
 
     margin-top: 10px;
     
-}
+} */
 
 /*--------------- Gallery section -------------------*/
 #photos img {
