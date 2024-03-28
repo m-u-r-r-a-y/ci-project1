@@ -174,7 +174,7 @@ main {
 #hero {
   height: 600px;
   width: 100%;
-  background: url("../images/Color_icon_white.svg.png") no-repeat center
+  background: url("../images/Color_icon_white.svg.webp") no-repeat center
     center/cover;
   position: relative;
   z-index: -1;
@@ -189,7 +189,7 @@ main {
   line-height: 80px;
   font-weight: 800px;
   /* text-transform: uppercase; */
-  background: url(../images/chief.png) 0 0 / cover no-repeat;
+  background: url(../images/coh.webp) 0 0 / cover no-repeat;
   color: #de466c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -202,7 +202,7 @@ main {
   line-height: 80px;
   font-weight: 800px;
   text-transform: uppercase;
-  background: url(../images/alice.jpeg) 0 0 / cover no-repeat;
+  background: url(../images/alice.webp) 0 0 / cover no-repeat;
   color: #de466c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
