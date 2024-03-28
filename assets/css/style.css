@@ -23,13 +23,14 @@ body {
   /* background-image: linear-gradient(281deg,#420be6,#a16bb3); */
 }
 
-h1,
-h2,
-h3 {
+h1 {
   font-family: "Oswald", sans-serif;
   text-transform: none;
   letter-spacing: 2px;
   color: #4a0b8683;
+  background: url(../images//gallery/car-home.webp) 0 0 / cover no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hidden-heading {
@@ -189,7 +190,7 @@ main {
   line-height: 80px;
   font-weight: 800px;
   /* text-transform: uppercase; */
-  background: url(../images/coh.webp) 0 0 / cover no-repeat;
+  background: url(../images/chief.webp) 0 0 / cover no-repeat;
   color: #de466c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
