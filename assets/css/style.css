@@ -288,7 +288,7 @@ main {
  
 .team_container {
 
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: space-between;
     justify-content: center;
@@ -299,7 +299,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center; 
     padding: 2rem;
     padding-bottom: 0.5rem;
     width: 100%;
@@ -342,22 +342,14 @@ main {
 
     height: 100%;
     width: 100%;
-    padding: 20px;
-    margin-bottom:  10px;
-    /* border-radius: 40px;   */
-}
-
-.project_item > p {
-
-    padding: 20px;
+     padding: 20px; 
+    /* margin-bottom:  10px; */
+    border-radius:40px;   
 
 }
 
-#vid-text {
 
-    margin-top: 10px;
-    
-}
+
 
 /*--------------- Gallery section -------------------*/
 #photos img {
