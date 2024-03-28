@@ -228,7 +228,7 @@ main {
     color: #de466c;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 2rem;
+    margin-top: 1rem;
  }
 
  /*---------------- annimatied balls -------------------*/
@@ -329,7 +329,12 @@ main {
     flex-direction: column; 
     align-items: space-between; 
     background-color: #f6a4fa1e;
+<<<<<<< HEAD
     padding-bottom: 20px;
+=======
+    padding-bottom: 10px;
+   
+>>>>>>> d4fbdfba3785c028c79aaeed07db22edf361f8fc
 }
    
 .project_item {
@@ -339,6 +344,7 @@ main {
     align-items: center;
     justify-content: center; 
     width: 100%;
+ 
 }
 .project_item > video {
 
@@ -350,6 +356,7 @@ main {
     border-radius: 40px;  
 }
 
+<<<<<<< HEAD
 /* .project_item > p {
 
     padding: 20px;
@@ -360,6 +367,8 @@ main {
     margin-top: 10px;
     
 } */
+=======
+>>>>>>> d4fbdfba3785c028c79aaeed07db22edf361f8fc
 
 /*--------------- Gallery section -------------------*/
 #photos img {
@@ -460,17 +469,18 @@ input[type=text], select {
 
  /* ---------- Footer --------*/
 
-hr {
 
-margin-right: 30px;
- margin-left: 30px;
- f
-}
 
 
 footer{
+<<<<<<< HEAD
     height: 50px;
     margin-top: 50px;
+=======
+    height: 60px;
+    margin-top: 10px;
+    text-align: center;
+>>>>>>> d4fbdfba3785c028c79aaeed07db22edf361f8fc
     
 }
 
