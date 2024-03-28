@@ -183,6 +183,20 @@ main {
 
 /* --------------- wrapped imaged ------------------------ */
 
+#mask-image-h4 {
+  text-align: center;
+  width: auto;
+  font-size: 66px;
+  line-height: 80px;
+  font-weight: 800px;
+  /* text-transform: uppercase; */
+  background: url(../images/chief.webp) 0 0 / cover no-repeat;
+  color: #de466c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 80px;
+}
+
 #mask-image {
   text-align: center;
   width: auto;

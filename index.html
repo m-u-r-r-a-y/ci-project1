@@ -21,7 +21,13 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link rel="preload" fetchpriority="high" as="image" href="/assets/images/gallery/car-home.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/alice.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/chief.webp" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="/assets/images/Color_icon_white.svg.webp" type="image/webp">
+
+
   </head>
 
   <body>
@@ -42,7 +48,7 @@
           <li><a href="#who-we-are" id="wwa">who we are</a></li>
           <li><a href="#projects1" id="wwd">what we do</a></li>
           <li><a href="#wip" id="inspo">inspiration</a></li>
-          <li><a href="#news" id="news">news</a></li>
+          <li><a href="#news1" id="news">news</a></li>
           <li><a href="play.html" id="play">play</a></li>
         </ul>
     </div>
@@ -56,16 +62,10 @@
       <!------ Hero section ------->
 
       <section id="hero">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-    
+       
         <div id="dizzy_ball_2"></div>
 
-        <h4 id="mask-image">I am nobody. Nobody is perfect. I am perfect.</h4>
+        <h4 id="mask-image-h4">I am nobody. Nobody is perfect. I am perfect.</h4>
         <br />
 
         <div id="dizzy_ball"></div>
@@ -172,7 +172,7 @@
                 alt="Techno priest">
             <img src="assets/images/gallery/rainbow-wall.webp" alt="Modern fututuristic house">
             <img src="assets/images/gallery/1980vr.webp" alt="1980s improbable future">
-            <section id="news"></section>
+            <section id="news1"></section>
         </div>
     </section>
     
