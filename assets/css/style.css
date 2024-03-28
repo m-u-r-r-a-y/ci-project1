@@ -470,7 +470,16 @@ footer {
   margin-top: 50px;
   height: 60px;
   margin-top: 10px;
+  /* text-align: center; */
+  /* display: flex; */
+}
+
+#social-networks {
   text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 /*----------- Screen sizes and changes in performance ----------*/
