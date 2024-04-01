@@ -55,9 +55,9 @@ follow the shape and for their brain become hyponotized out of their current thi
 
 ## Performance:
 
-[](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-03-28%20at%2013.22.05.png)
+![](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-03-28%20at%2013.22.05.png)
 
-[](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/thumbnail_performance73.png)
+![](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/thumbnail_performance73.png)
 
 
 ## Validation and accessibility:
