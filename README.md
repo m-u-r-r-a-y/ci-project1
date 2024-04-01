@@ -22,7 +22,9 @@ Located at the top level of the codebase is the index html and test html (not in
 
 ### Visual design
 
-The overall theme for the website is based off pastel rainbow pallette. These colors evoke cute/innocent, attractive, childlike-play and soft-delight.
+The overall theme for the website is based off a pastel rainbow pallette. These colors evoke cute/innocent, attractive, childlike-play and soft-delight.
 
-![patel_thematic_colour_scheme]()
+![patel_thematic_colour_scheme](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/rainybow.png)
+
+
 
