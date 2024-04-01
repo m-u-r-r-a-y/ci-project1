@@ -30,5 +30,12 @@ The idealism found in the roots an AI powered world has also been an inspiration
 
 ![screenshot 1 ](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-03-28%20at%2015.48.54.png)
 
+### Elements
+
+I designed a shapeshifting form at the top of th page to give the hero section of the page an element of spontenainety and distraction. I wanted the user's eye to 
+follow the shape and for their brain become hyponotized out of their current thinking and into an new world of fantasy and dream.
+
+![screenshot 2 ](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/ScreenRecording2024-04-01at17.27.32-ezgif.com-optimize.gif) 
+
 
 
