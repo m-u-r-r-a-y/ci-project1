@@ -214,7 +214,7 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-#alice-image {
+.alice-image {
   text-align: center;
   width: auto;
   font-size: 66px;
