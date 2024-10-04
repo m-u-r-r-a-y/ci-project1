@@ -2,12 +2,16 @@
 
 ## Idea
 
-Out_Side is hypothetically a creative company that tells original stories for exciting brands, recording artists and film and game studios.
-The aim of the website is to showcase work, inspirations and create new work/ideas from interactions with the users.
+Out_Side is a forward-thinking creative agency specializing in crafting original narratives for dynamic brands, recording artists, and film and game studios. Our mission is to deliver compelling, innovative storytelling that resonates with audiences across multiple industries.
+
+The website serves as a platform to showcase our portfolio of work, highlight creative inspirations, and foster collaboration by engaging with users to generate fresh ideas and new projects.
 
 ## Why?
-Initially I wanted to create an online playground or better platform that mainly explores a user's journey from arrival to departure in a playful manner. I'm interested in why sites look and feel like a 'website', i.e why has a hamburger icon become the standard? and why do we have navigation bars at the top of the page and not the side? To explore this the user would be given a series of website elements to interact with, which would produce changes in their journey through to departure. 
-These questions are part of a long format project and this website is the first step.
+The initial concept was to develop an interactive online platform that creatively explores a user’s journey from arrival to departure in an engaging, experimental manner. The platform seeks to challenge conventional website design paradigms by investigating why certain design elements, such as the hamburger menu or top navigation bars, have become industry standards.
+
+Through this exploration, users will interact with various web elements, triggering dynamic changes in their journey throughout the site. This experimental approach is designed to provoke thought on how design choices shape user experience and expectations.
+
+This project is part of a larger, long-term initiative aimed at questioning and redefining the digital landscape, with this website serving as the first step in that journey.
 
 ## Folder Organization:
 
@@ -24,12 +28,15 @@ Located at the top level of the codebase is the index.html and test.html (not in
 
 ## Why?
 
-The overall theme for the website is based off a pastel rainbow palette. These colors evoke cute/innocent, attractive, welcoming, childlike-play and soft-delight.
+Design Theme:
+
+The overall theme of the website is centered around a pastel rainbow color palette. This choice of colors is intended to evoke a sense of innocence, charm, and playful curiosity, creating a welcoming and visually attractive environment. The soft, muted tones convey a childlike playfulness while maintaining a subtle sophistication, offering users an experience of warmth and delight as they interact with the platform.
 
 ![patel_thematic_colour_scheme](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/rainybow.png)
 
-The idealism found in the roots of an AI powered world has also been an inspiration. Leaning more towards a 'cute-cyberpunk', with soft pink pastel neons as opposed to a darker dystopian world. The aim was to avoid the cynical AI canon which has become commonplace in the media.
+Inspirational Concept:
 
+The idealism inherent in the vision of an AI-powered world has been a key source of inspiration for the website. The design leans towards a 'cute-cyberpunk' aesthetic, incorporating soft pastel neon pinks rather than the darker, dystopian themes typically associated with AI in media. The goal is to move away from the cynical portrayal of artificial intelligence that has become commonplace, instead presenting a more optimistic and whimsical take on the future.
 ![screenshot 1 ](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-03-28%20at%2015.48.54.png)
 
 
@@ -38,14 +45,15 @@ The idealism found in the roots of an AI powered world has also been an inspirat
 
 ![wireframe](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/thumbnail_ci-project1-website-design%20.png)
 
-The aim was to have a single page website, delivered in a minimal but aesthetically pleasing manner to showcase
-the company's works and ideas.
+Website Structure:
+
+The objective is to create a single-page website designed with a minimalist yet visually appealing aesthetic. This streamlined approach will effectively showcase the company's portfolio, ideas, and creative vision, providing an engaging user experience while maintaining simplicity and elegance.
 
 #### Moving icon (animation)
 
-I designed a shapeshifting icon to give the hero section an element of spontaneity and distraction. I wanted 
-the user's eye to follow the shape then become hypnotized out of their current thinking and 
-into a new world of fantasy and dream. I also worked on slowing the animation to stop it being painful.
+Hero Section Design:
+
+I designed a shapeshifting icon for the hero section to introduce an element of spontaneity and visual intrigue. The goal was to draw the user's attention, encouraging their gaze to follow the shifting form, gradually leading them into a world of fantasy and imagination. To enhance the experience, I fine-tuned the animation's speed, ensuring it transitions smoothly without causing visual discomfort or overwhelming the user.
 
 ![screenshot 2](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/ScreenRecording2024-04-01at17.27.32-ezgif.com-optimize.gif)
 
@@ -57,7 +65,10 @@ into a new world of fantasy and dream. I also worked on slowing the animation to
 
 #### Newsletter
 
-To add another playful element to the form, we request the user to tell us what is their favourite ice cream.
+Interactive Element:
+
+As an additional playful feature, users are prompted to share their favorite ice cream flavor during their interaction with the site. This whimsical touch enhances user engagement, adding a lighthearted and personal element to the overall experience.
+
 ![screenshot 5 ](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-04-01%20at%2023.45.59.png) 
 
 ## Performance:
@@ -65,8 +76,10 @@ This is the original score produced by lighthouse on Chrome.
 
 ![screenshot 6](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-03-28%20at%2013.22.05.png)
 
-After changing the images to a modern web format such as webp and creating a preload function within the html 
-This was the result I received. There are still improvements to be made, however this site is media heavy so the design may also need to change to resolve it.
+Optimization Results:
+
+After converting the images to a modern web format, such as WebP, and implementing a preload function within the HTML, we observed noticeable improvements in performance. While there is still room for optimization, the media-heavy nature of the site presents challenges that may require further design adjustments to fully resolve loading issues.
+
 
 ![screenshot 7](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/thumbnail_performance73.png)
 
@@ -79,7 +92,10 @@ This was the result I received. There are still improvements to be made, however
 ![screenshot 8](https://github.com/m-u-r-r-a-y/ci-project1/blob/main/docs/Screenshot%202024-04-02%20at%2001.03.55.png)
 
 ### HTML markup validator
-The validator tested the page and resulted in 50 warnings which refer to formating done by Prettier, the extension in VS Code.
+
+Validation Report:
+
+Upon running the page through the validator, 50 warnings were generated, primarily related to formatting handled by Prettier, the code formatting extension used in VS Code. While these warnings do not impact functionality, further review may be required to ensure full compliance with coding standards.
 
 > Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
   
